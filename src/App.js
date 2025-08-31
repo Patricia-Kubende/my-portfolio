@@ -20,7 +20,7 @@ function App() {
           Hello, I'm <span className="text-purple-400">Patricia 👋</span>
         </h2>
         <p className="mt-4 text-lg text-gray-300">
-          Data Analyst | ML Enthusiast | Computer Science Student
+          Data Analyst | ML Enthusiast | BI Specialist
         </p>
         <a
           href="#projects"
