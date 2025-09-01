@@ -10,6 +10,7 @@ function App() {
           <a href="#about" className="hover:text-purple-300">About</a>
           <a href="#skills" className="hover:text-purple-300">Skills</a>
           <a href="#projects" className="hover:text-purple-300">Projects</a>
+          <a href="#experience" className="hover:text-purple-300">Experience</a>
           <a href="#contact" className="hover:text-purple-300">Contact</a>
         </div>
       </nav>
@@ -50,7 +51,6 @@ function App() {
           <li>Networking & IT Support</li>
           <li>Communication</li>
           <li>Leadership</li>
-          
         </ul>
       </section>
 
@@ -73,8 +73,6 @@ function App() {
               View on GitHub
             </a>
           </div>
-      
-   
 
           {/* FNP Sales Dashboard */}
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
@@ -82,6 +80,9 @@ function App() {
             <p className="text-gray-400 mt-2">
               Analyzes sales performance of an online delivery company using Excel 
               tools including Power Query, Power Pivot, and DAX.
+              Analyzed 1,000+ online delivery orders (2023) to uncover time-based sales patterns, seasonal demand, product drivers, and city-level insights.
+              Delivered recommendations for occasion-based campaigns, faster logistics, and bundling strategies, driving revenue optimization opportunities.
+
             </p>
             <a
               href="https://github.com/Patricia-Kubende/fnp-sales-dashboard"
@@ -99,6 +100,7 @@ function App() {
             <p className="text-gray-400 mt-2">
               SQL + Power BI analysis of M-Gas customer usage and delivery 
               performance to improve monitoring and engagement.
+              Designed relational database and Power BI dashboards analyzing customer usage, arrears, and delivery efficiency. Improved demand forecasting accuracy by applying machine learning models for proactive logistics planning.
             </p>
             <a
               href="https://github.com/Patricia-Kubende/M-Gas-Project-Customer-Delivery-Insights-"
@@ -116,6 +118,9 @@ function App() {
             <p className="text-gray-400 mt-2">
               Excel dataset and dashboard visualizations for analyzing store 
               sales performance, customer demographics, and order channels.
+              Built Excel/Power BI dashboards analyzing channel sales, gender demographics, and regional performance, revealing top-performing states and customer groups, leading to improved targeting strategies.
+              Identified that Amazon drove 35% of sales and women accounted for 64% of purchases, supporting better marketing focus.
+
             </p>
             <a
               href="https://github.com/Patricia-Kubende/Retail-Sales-Report"
@@ -150,6 +155,7 @@ function App() {
             <p className="text-gray-400 mt-2">
               A collection of SQL queries designed for exploration and basic data 
               analysis tasks.
+              Created reports improving transparency of KPIs across operations.
             </p>
             <a
               href="https://github.com/Patricia-Kubende/SQL-Project"
@@ -159,6 +165,25 @@ function App() {
             >
               View on GitHub
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Experience Section */}
+      <section id="experience" className="max-w-4xl mx-auto px-6 py-16">
+        <h3 className="text-3xl font-bold text-purple-400 mb-6">Experience</h3>
+        <div className="space-y-6">
+          <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
+            <h4 className="text-xl font-semibold">Nzoia Sugar Company – IT Attachment</h4>
+            <p className="text-gray-400 mt-2">
+              Networking, troubleshooting, and IT support for company systems.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
+            <h4 className="text-xl font-semibold">Volunteer Computer Lab Assistant</h4>
+            <p className="text-gray-400 mt-2">
+              Assisted students in computer basics while demonstrating leadership & teaching ability.
+            </p>
           </div>
         </div>
       </section>
@@ -189,6 +214,22 @@ function App() {
           </li>
         </ul>
       </section>
+
+
+      {/* Experience */}
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700">
+          <li>
+            <strong>Nzoia Sugar Company IT Attachment</strong> – Networking, troubleshooting, IT support.
+          </li>
+          <li>
+            <strong>Volunteer Computer Lab Assistant</strong> – Demonstrated leadership and teaching ability while supporting computer literacy.
+          </li>
+        </ul>
+      </section>
+  
+
 
       {/* Contact Section */}
       <section id="contact" className="max-w-4xl mx-auto px-6 py-16 text-center">
