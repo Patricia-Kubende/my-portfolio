@@ -216,20 +216,6 @@ function App() {
           </li>
         </ul>
       </section>
-
-
-      {/* Experience */}
-      <section>
-        <h2 className="text-2xl font-semibold mb-4">Experience</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700">
-          <li>
-            <strong>Nzoia Sugar Company IT Attachment</strong> – Networking, troubleshooting, IT support.
-          </li>
-          <li>
-            <strong>Volunteer Computer Lab Assistant</strong> – Demonstrated leadership and teaching ability while supporting computer literacy.
-          </li>
-        </ul>
-      </section>
   
 
 
