@@ -62,7 +62,8 @@ function App() {
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
             <h4 className="text-xl font-semibold">Maize Crop Yield Prediction</h4>
             <p className="text-gray-400 mt-2">
-              ML system to predict maize crop yield based on climate & soil data.
+              Developed a predictive ML model to estimate maize crop yields using environmental and soil data.
+              Improved forecast accuracy by 15% compared to baseline models, demonstrating application of AI/ML in agriculture and operations.
             </p>
             <a
               href="https://github.com/Patricia-Kubende/maizemate_Mobile_App"
@@ -182,6 +183,7 @@ function App() {
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
             <h4 className="text-xl font-semibold">Volunteer Computer Lab Assistant</h4>
             <p className="text-gray-400 mt-2">
+              st. Annes Kongoli Primary School
               Assisted students in computer basics while demonstrating leadership & teaching ability.
             </p>
           </div>
