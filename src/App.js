@@ -214,6 +214,27 @@ function App() {
               Dataquest Python Programming Certificate
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.mindluster.com/student/certificate/afe4fc7b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:underline"
+            >
+              Effective Communication Skills Certificate
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.mindluster.com/student/certificate/405d78b1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:underline"
+            >
+              Logistics Analytics
+            </a>
+          </li>
+
         </ul>
       </section>
   
