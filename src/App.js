@@ -235,6 +235,17 @@ function App() {
             </a>
           </li>
 
+          <li>
+            <a
+              href="https://www.mindluster.com/student/certificate/821d3b2b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:underline"
+            >
+              Microsoft Excel
+            </a>
+          </li>
+
         </ul>
       </section>
   
