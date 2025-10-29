@@ -43,11 +43,12 @@ function App() {
       <section id="skills" className="max-w-4xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-purple-400 mb-6">Skills</h3>
         <ul className="list-disc list-inside space-y-2 text-gray-300">
-          <li>Python & Data Science</li>
-          <li>Machine Learning & NLP</li>
+          <li>Python</li>
+          <li>Machine Learning & Data Science</li>
           <li>Power BI & Data Visualization</li>
           <li>Flutter App Development</li>
-          <li>Excel</li>
+          <li>SQL & Database Management</li>
+          <li>Excel & Data Analysis</li>
           <li>Networking & IT Support</li>
           <li>Communication</li>
           <li>Leadership</li>
