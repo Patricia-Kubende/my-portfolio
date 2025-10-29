@@ -232,7 +232,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline"
             >
-              Logistics Analytics
+              Logistics Analytics Certificate
             </a>
           </li>
 
@@ -243,7 +243,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline"
             >
-              Microsoft Excel
+              Microsoft Excel Certificate
             </a>
           </li>
 
