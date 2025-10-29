@@ -46,10 +46,10 @@ function App() {
           <li>Python</li>
           <li>Machine Learning & Data Science</li>
           <li>Power BI & Data Visualization</li>
-          <li>Flutter App Development</li>
           <li>SQL & Database Management</li>
           <li>Excel & Data Analysis</li>
           <li>Networking & IT Support</li>
+          <li>Flutter App Development</li>
           <li>Communication</li>
           <li>Leadership</li>
         </ul>
