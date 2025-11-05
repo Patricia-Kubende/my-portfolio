@@ -67,7 +67,7 @@ function App() {
               Improved forecast accuracy by 15% compared to baseline models, demonstrating application of AI/ML in agriculture and operations.
             </p>
             <a
-              href="https://github.com/Patricia-Kubende/maizemate_Mobile_App"
+              href="https://github.com/Patricia-Kubende/maize-yield-api"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline mt-3 block"
@@ -165,7 +165,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline mt-3 block"
             >
-              View on GitHub
+              View on GitHub 
             </a>
           </div>
         </div>
