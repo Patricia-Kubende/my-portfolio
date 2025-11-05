@@ -225,6 +225,19 @@ function App() {
               Effective Communication Skills Certificate
             </a>
           </li>
+
+
+          <li>
+            <a
+              href="https://www.datacamp.com/statement-of-accomplishment/course/9066fa19a11240c8d1936ecb0d96778cd4c97486?raw=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:underline"
+            >
+              Introduction to SQL Certificate - DataCamp
+            </a>
+          </li>
+
           <li>
             <a
               href="https://www.mindluster.com/student/certificate/405d78b1"
