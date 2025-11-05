@@ -222,7 +222,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline"
             >
-              Effective Communication Skills Certificate
+              Effective Communication Skills Certificate - mindluster
             </a>
           </li>
 
@@ -245,7 +245,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline"
             >
-              Logistics Analytics Certificate
+              Logistics Analytics Certificate - mindluster
             </a>
           </li>
 
@@ -256,7 +256,7 @@ function App() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:underline"
             >
-              Microsoft Excel Certificate
+              Microsoft Excel Certificate - mindluster
             </a>
           </li>
 
