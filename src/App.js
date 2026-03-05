@@ -7,7 +7,7 @@ import DataWarehouseDashboard from "./dashboard/DataWarehouseAnalysisDasboard.pn
 import DataWarehouseSnowflakeTables from "./dashboard/snowflaketables.png";
 import fnpDashboard from "./dashboard/FnPDashboard.png";
 import MaizeYieldDashboard1 from "./dashboard/MaizeYieldDashboard.png";
-import MaizeYieldDashboard2 from "./dashboard/predictionscreen.png";
+import MaizeYieldPrediction from "./dashboard/predictionscreen.png";
 import RetailDashboard from "./dashboard/RetailSalesDashboard.png";
 
 function App() {
@@ -246,7 +246,7 @@ function App() {
     <img src={DataWarehouseSnowflakeTables} alt="Snowflake Tables" className="rounded-xl shadow-lg"/>
     <img src={fnpDashboard} alt="FNP Dashboard" className="rounded-xl shadow-lg"/>
     <img src={MaizeYieldDashboard1} alt="Maize Yield Dashboard" className="rounded-xl shadow-lg"/>
-     <img src={MaizeYieldDashboard2} alt="Maize Yield prediction Dashboard" className="rounded-xl shadow-lg"/>
+     <img src={MaizeYieldPrediction} alt="Maize Yield prediction Dashboard" className="rounded-xl shadow-lg"/>
     <img src={RetailDashboard} alt="Retail Dashboard" className="rounded-xl shadow-lg"/>
 
   </div>
