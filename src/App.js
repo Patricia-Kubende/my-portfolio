@@ -232,24 +232,165 @@ function App() {
         </div>
       </section>
 
- <section id="dashboards" className="max-w-6xl mx-auto px-6 py-16">
-  <h3 className="text-3xl font-bold text-purple-400 mb-6 text-center">
-    Dashboard Gallery
-  </h3>
+{/* Dashboard Gallery */}
+<section id="dashboards" className="max-w-6xl mx-auto px-6 py-16">
 
-  <div className="grid md:grid-cols-2 gap-6">
+<h3 className="text-3xl font-bold text-purple-400 mb-10 text-center">
+Dashboard Gallery
+</h3>
 
-    <img src={mgasDashboard1} alt="Customer Usage Insights" className="rounded-xl shadow-lg"/>
-    <img src={mgasDashboard2} alt="Delivery Performance Dashboard" className="rounded-xl shadow-lg"/>
-    <img src={mgasDashboard3} alt="Revenue Payments Dashboard" className="rounded-xl shadow-lg"/>
-    <img src={DataWarehouseDashboard} alt="Data Warehouse Dashboard" className="rounded-xl shadow-lg"/>
-    <img src={DataWarehouseSnowflakeTables} alt="Snowflake Tables" className="rounded-xl shadow-lg"/>
-    <img src={fnpDashboard} alt="FNP Dashboard" className="rounded-xl shadow-lg"/>
-    <img src={MaizeYieldDashboard1} alt="Maize Yield Dashboard" className="rounded-xl shadow-lg"/>
-     <img src={MaizeYieldPrediction} alt="Maize Yield prediction Dashboard" className="rounded-xl shadow-lg"/>
-    <img src={RetailDashboard} alt="Retail Dashboard" className="rounded-xl shadow-lg"/>
+<div className="space-y-10">
 
-  </div>
+{/* M-Gas Project */}
+<div>
+<h4 className="text-xl font-semibold text-purple-300 mb-4">
+M-Gas Analytics Dashboards
+</h4>
+
+<details className="mb-4 cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Customer Usage Insights
+</summary>
+
+<img
+src={mgasDashboard1}
+alt="Customer Usage Insights"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+<details className="mb-4 cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Delivery Performance
+</summary>
+
+<img
+src={mgasDashboard2}
+alt="Delivery Performance"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+<details className="cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Revenue & Payments
+</summary>
+
+<img
+src={mgasDashboard3}
+alt="Revenue Payments"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+</div>
+
+{/* Snowflake Project */}
+<div>
+<h4 className="text-xl font-semibold text-purple-300 mb-4">
+Snowflake Data Warehouse
+</h4>
+
+<details className="cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Retail Analytics Dashboard
+</summary>
+
+<img
+src={DataWarehouseDashboard}
+alt="Snowflake Dashboard"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+<details className="cursor-pointer mt-4">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Snowflake Tables
+</summary>
+
+<img
+src={DataWarehouseSnowflakeTables}
+alt="Snowflake Tables"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+</div>
+
+{/* FNP Dashboard */}
+<div>
+<h4 className="text-xl font-semibold text-purple-300 mb-4">
+FNP Sales Analytics
+</h4>
+
+<details className="cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+FNP Sales Dashboard
+</summary>
+
+<img
+src={fnpDashboard}
+alt="FNP Dashboard"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+</div>
+
+{/* Retail Dashboard */}
+<div>
+<h4 className="text-xl font-semibold text-purple-300 mb-4">
+Retail Sales Analytics
+</h4>
+
+<details className="cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Retail Sales Dashboard
+</summary>
+
+<img
+src={RetailDashboard}
+alt="Retail Dashboard"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+</div>
+
+{/* Maize Prediction */}
+<div>
+<h4 className="text-xl font-semibold text-purple-300 mb-4">
+Maize Yield Prediction
+</h4>
+
+<details className="cursor-pointer">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Prediction Dashboard
+</summary>
+
+<img
+src={MaizeYieldDashboard}
+alt="Maize Dashboard"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+<details className="cursor-pointer mt-4">
+<summary className="text-lg text-gray-300 hover:text-purple-400">
+Prediction Screen
+</summary>
+
+<img
+src={PredictionScreen}
+alt="Prediction Screen"
+className="mt-4 rounded-xl shadow-lg"
+/>
+</details>
+
+</div>
+
+</div>
+
 </section>
 
       {/* Certificates Section */}
