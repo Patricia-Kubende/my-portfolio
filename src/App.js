@@ -1,5 +1,15 @@
 import React from "react";
 
+import mgasDashboard1 from "./dashboard/Customer & Usage_Insights.png";
+import mgasDashboard2 from "./dashboard/Delivery Performance.png";
+import mgasDashboard3 from "./dashboard/Revenue & Payments.png";
+import DataWarehouseDashboard from "./dashboard/DataWarehouseAnalysisDasboard.png";
+import DataWarehouseSnowflakeTables from "./dashboard/snowflake tables.png";
+import fnpDashboard from "./dashboard/FnPDashboard.png";
+import MaizeYieldDashboard1 from "./dashboard/MaizeYieldDashboard.png";
+import MaizeYieldDashboard2 from "./dashboard/MaizeYieldDashboard.png";
+import RetailDashboard from "./dashboard/RetailSalesDashboard.png";
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-purple-950 text-white">
@@ -210,16 +220,34 @@ function App() {
               Networking, troubleshooting, and IT support for company systems.
             </p>
           </div>
-          
+
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
             <h4 className="text-xl font-semibold">Volunteer Computer Lab Assistant</h4>
             <p className="text-gray-400 mt-2">
               st. Annes Kongoli Primary School
               Assisted students in computer basics while demonstrating leadership & teaching ability.
+              Data entry and management of student records, contributing to improved organization and accessibility of information for school administration.
             </p>
           </div>
         </div>
       </section>
+
+      <section id="dashboards">
+  <h2>Dashboard Gallery</h2>
+
+  <div className="dashboard-grid">
+
+    <img src={mgasDashboard1} alt="Customer & Usage Insights Dashboard" />
+    <img src={mgasDashboard2} alt="Delivery Performance Dashboard" />
+    <img src={mgasDashboard3} alt="Revenue & Payments Dashboard" />
+    <img src={DataWarehouseDashboard} alt="Data Warehouse Analysis Dashboard" />
+    <img src={DataWarehouseSnowflakeTables} alt="Snowflake Tables" />
+    <img src={fnpDashboard} alt="FNP Dashboard" />
+    <img src={MaizeYieldDashboard1} alt="Maize Yield Dashboard" />
+    <img src={RetailDashboard} alt="Retail Sales Dashboard" />
+
+  </div>
+</section>
 
       {/* Certificates Section */}
       <section id="certificates" className="max-w-4xl mx-auto px-6 py-16">
