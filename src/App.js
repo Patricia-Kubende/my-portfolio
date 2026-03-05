@@ -1,13 +1,13 @@
 import React from "react";
 
-import mgasDashboard1 from "./dashboard/Customer & Usage_Insights.png";
-import mgasDashboard2 from "./dashboard/Delivery Performance.png";
-import mgasDashboard3 from "./dashboard/Revenue & Payments.png";
+import mgasDashboard1 from "./dashboard/CustomerUsageInsights.png";
+import mgasDashboard2 from "./dashboard/DeliveryPerformance.png";
+import mgasDashboard3 from "./dashboard/RevenuePayments.png";
 import DataWarehouseDashboard from "./dashboard/DataWarehouseAnalysisDasboard.png";
-import DataWarehouseSnowflakeTables from "./dashboard/snowflake tables.png";
+import DataWarehouseSnowflakeTables from "./dashboard/snowflaketables.png";
 import fnpDashboard from "./dashboard/FnPDashboard.png";
 import MaizeYieldDashboard1 from "./dashboard/MaizeYieldDashboard.png";
-import MaizeYieldDashboard2 from "./dashboard/MaizeYieldDashboard.png";
+import MaizeYieldDashboard2 from "./dashboard/predictionscreen.png";
 import RetailDashboard from "./dashboard/RetailSalesDashboard.png";
 
 function App() {
@@ -232,19 +232,22 @@ function App() {
         </div>
       </section>
 
-      <section id="dashboards">
-  <h2>Dashboard Gallery</h2>
+ <section id="dashboards" className="max-w-6xl mx-auto px-6 py-16">
+  <h3 className="text-3xl font-bold text-purple-400 mb-6 text-center">
+    Dashboard Gallery
+  </h3>
 
-  <div className="dashboard-grid">
+  <div className="grid md:grid-cols-2 gap-6">
 
-    <img src={mgasDashboard1} alt="Customer & Usage Insights Dashboard" />
-    <img src={mgasDashboard2} alt="Delivery Performance Dashboard" />
-    <img src={mgasDashboard3} alt="Revenue & Payments Dashboard" />
-    <img src={DataWarehouseDashboard} alt="Data Warehouse Analysis Dashboard" />
-    <img src={DataWarehouseSnowflakeTables} alt="Snowflake Tables" />
-    <img src={fnpDashboard} alt="FNP Dashboard" />
-    <img src={MaizeYieldDashboard1} alt="Maize Yield Dashboard" />
-    <img src={RetailDashboard} alt="Retail Sales Dashboard" />
+    <img src={mgasDashboard1} alt="Customer Usage Insights" className="rounded-xl shadow-lg"/>
+    <img src={mgasDashboard2} alt="Delivery Performance Dashboard" className="rounded-xl shadow-lg"/>
+    <img src={mgasDashboard3} alt="Revenue Payments Dashboard" className="rounded-xl shadow-lg"/>
+    <img src={DataWarehouseDashboard} alt="Data Warehouse Dashboard" className="rounded-xl shadow-lg"/>
+    <img src={DataWarehouseSnowflakeTables} alt="Snowflake Tables" className="rounded-xl shadow-lg"/>
+    <img src={fnpDashboard} alt="FNP Dashboard" className="rounded-xl shadow-lg"/>
+    <img src={MaizeYieldDashboard1} alt="Maize Yield Dashboard" className="rounded-xl shadow-lg"/>
+     <img src={MaizeYieldDashboard2} alt="Maize Yield prediction Dashboard" className="rounded-xl shadow-lg"/>
+    <img src={RetailDashboard} alt="Retail Dashboard" className="rounded-xl shadow-lg"/>
 
   </div>
 </section>
