@@ -369,7 +369,7 @@ Prediction Dashboard
 </summary>
 
 <img
-src={MaizeYieldDashboard}
+src={MaizeYieldDashboard1}
 alt="Maize Dashboard"
 className="mt-4 rounded-xl shadow-lg"
 />
@@ -381,7 +381,7 @@ Prediction Screen
 </summary>
 
 <img
-src={PredictionScreen}
+src={MaizeYieldPrediction}
 alt="Prediction Screen"
 className="mt-4 rounded-xl shadow-lg"
 />
