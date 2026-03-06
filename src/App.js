@@ -205,7 +205,7 @@ function App() {
         <h3 className="text-3xl font-bold text-purple-400 mb-6">Experience</h3>
         <div className="space-y-6">
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h4 className="text-xl font-semibold">Data Analyst Intern - Presidential Digital Talent Programme</h4>
+            <h4 className="text-xl font-semibold">Data Analyst Intern - Presidential Digital Talent Programme - Jan 2026</h4>
             <p className="text-gray-400 mt-2">
               Data analysis and reporting for various business intelligence initiatives.
               Data extraction, cleaning, and visualization using Python, Excel and Power BI to support decision-making and performance monitoring.
@@ -215,14 +215,14 @@ function App() {
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h4 className="text-xl font-semibold">Nzoia Sugar Company – IT Attachment</h4>
+            <h4 className="text-xl font-semibold">Nzoia Sugar Company – IT Attachment - May 2024-July 2024</h4>
             <p className="text-gray-400 mt-2">
               Networking, troubleshooting, and IT support for company systems.
             </p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h4 className="text-xl font-semibold">Volunteer Computer Lab Assistant</h4>
+            <h4 className="text-xl font-semibold">Volunteer Computer Lab Assistant June 2021-August 2021</h4>
             <p className="text-gray-400 mt-2">
               st. Annes Kongoli Primary School
               Assisted students in computer basics while demonstrating leadership & teaching ability.
