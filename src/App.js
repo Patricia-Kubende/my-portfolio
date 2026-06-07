@@ -21,6 +21,7 @@ function App() {
           <a href="#skills" className="hover:text-purple-300">Skills</a>
           <a href="#projects" className="hover:text-purple-300">Projects</a>
           <a href="#experience" className="hover:text-purple-300">Experience</a>
+          <a href="#dashboards" className="hover:text-purple-300">Dashboards</a>
           <a href="#contact" className="hover:text-purple-300">Contact</a>
         </div>
       </nav>
@@ -45,7 +46,10 @@ function App() {
       <section id="about" className="max-w-4xl mx-auto px-6 py-16">
         <h3 className="text-3xl font-bold text-purple-400 mb-6">About Me</h3>
         <p className="text-gray-300 leading-relaxed">
-          Computer Science graduate awaiting graduation from Maseno University with strong passion and knowledge in data analytics, machine learning, mobile app development, and IT support. Data analytics enthusiast, with ability to convert data to useful insights. Passionate about leveraging technology for social impact and committed to continuous learning and innovation.
+          Data Analyst and Computer Science graduate with experience in business intelligence, data visualization, reporting, and analytics. 
+          Skilled in Power BI, SQL, Excel, Python, and dashboard development. 
+          Proven ability to transform complex datasets into actionable insights through projects in retail, logistics, sales analytics, and machine learning.
+          Passionate about leveraging data to improve decision-making, operational efficiency, and organizational performance.
         </p>
       </section>
 
@@ -58,6 +62,9 @@ function App() {
           <li>Power BI & Data Visualization</li>
           <li>SQL & Database Management</li>
           <li>Excel & Data Analysis</li>
+          <li>MEAl:Monitoring, Evaluation, Accountability, Learning</li>
+          <li>Data Collection</li>
+          <li>Reporting & Analytics</li>
           <li>Networking & IT Support</li>
           <li>Flutter App Development</li>
           <li>Communication</li>
@@ -205,17 +212,18 @@ function App() {
         <h3 className="text-3xl font-bold text-purple-400 mb-6">Experience</h3>
         <div className="space-y-6">
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h4 className="text-xl font-semibold">Data Analyst Intern - Presidential Digital Talent Programme (Jan 2026)</h4>
+            <h4 className="text-xl font-semibold">Data Analyst Intern : Presidential Digital Talent Programme (PDTP-ICTA), TVET-CDACC
+               January 2026 - Present</h4>
             <p className="text-gray-400 mt-2">
-              Data analysis and reporting for various business intelligence initiatives.
-              Data extraction, cleaning, and visualization using Python, Excel and Power BI to support decision-making and performance monitoring.
-              Data-driven insights and recommendations to optimize operations and drive business growth.
-              Data verification and validation to ensure accuracy and reliability of reports and dashboards.
-            </p>
+              Support data management and reporting activities within the TVET sector.
+              Assist in data extraction, cleaning, validation, and analysis for institutional reporting.
+              Develop dashboards and visual reports to support decision-making.
+              Participate in digital transformation and data-driven initiatives.
+             
           </div>
 
           <div className="bg-gray-800 p-6 rounded-xl shadow-lg">
-            <h4 className="text-xl font-semibold">Nzoia Sugar Company – IT Attachment (May 2024-July 2024)</h4>
+            <h4 className="text-xl font-semibold">Nzoia Sugar Company - IT Attachment (May 2024-July 2024)</h4>
             <p className="text-gray-400 mt-2">
               Networking, troubleshooting, and IT support for company systems.
             </p>
@@ -415,6 +423,16 @@ className="mt-4 rounded-xl shadow-lg"
               className="text-purple-400 hover:underline"
             >
               Dataquest Python Programming Certificate
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Patricia-Kubende/my_certificates/blob/main/MEAL%20certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-400 hover:underline"
+            >
+              MEAL Essentials Certificate
             </a>
           </li>
           <li>
