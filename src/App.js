@@ -219,6 +219,7 @@ function App() {
               Assist in data extraction, cleaning, validation, and analysis for institutional reporting.
               Develop dashboards and visual reports to support decision-making.
               Participate in digital transformation and data-driven initiatives.
+            </p>
              
           </div>
 
